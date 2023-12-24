@@ -16,3 +16,13 @@
       </ul>
     </nav>
   </header>
+ <main>
+    <div class="search-container">
+      <input type="text" id="query" placeholder="Type your query...">
+      <button onclick="search()">Google Search</button>
+      <button onclick="feelingLucky()">I'm Feeling Lucky</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
