@@ -74,3 +74,12 @@ button {
   margin-left: 5px;
   cursor: pointer;
 }
+function search() {
+  var query = document.getElementById("query").value;
+  window.location.href = "https://www.google.com/search?q=" + encodeURIComponent(query);
+}
+
+function feelingLucky() {
+  var query = document.getElementById("query").value;
+  window.location.href = "https://www.google.com/search?btnI=1&q=" + encodeURIComponent(query);
+}
